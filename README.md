@@ -1,18 +1,18 @@
-# 🧠 Machine Learning Projects Portfolio
+#  Machine Learning Projects Portfolio
 
-## 📌 Overview
+##  Overview
 This repository contains two end-to-end Machine Learning projects developed as part of an AI/ML internship.  
 Each project follows the complete machine learning workflow including data preprocessing, exploratory data analysis (EDA), model building, evaluation, and comparison.
 
 Projects Included:
-- 🏠 House Price Prediction (Regression)
-- 💰 Loan Approval Prediction (Classification)
+-  House Price Prediction (Regression)
+-  Loan Approval Prediction (Classification)
 
 ---
 
-# 🏠 Project 1: House Price Prediction
+#  Project 1: House Price Prediction
 
-## 📖 Problem Statement
+##  Problem Statement
 To develop a supervised regression model that predicts the median value of houses (MEDV) based on housing-related features.
 
 **Problem Type:** Regression  
@@ -20,7 +20,7 @@ To develop a supervised regression model that predicts the median value of house
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 The dataset consists of 13 independent variables and 1 target variable.
 
 Important Features:
@@ -33,24 +33,24 @@ Important Features:
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
-### 1️⃣ Data Preprocessing
+### 1️ Data Preprocessing
 - Handling missing values
 - Train-Test Split (80% training, 20% testing)
 - Feature scaling using StandardScaler
 
-### 2️⃣ Exploratory Data Analysis
+### 2️ Exploratory Data Analysis
 - Correlation heatmap
 - Feature relationship analysis
 
-### 3️⃣ Models Implemented
+### 3️ Models Implemented
 - Linear Regression
 - Random Forest Regressor
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 Linear Regression:
 - Training R² Score: 0.74
@@ -60,20 +60,20 @@ Random Forest Regressor:
 - Training R² Score: 0.97
 - Testing R² Score: 0.85
 
-✅ Best Performing Model: Random Forest Regressor
+Best Performing Model: Random Forest Regressor
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 - RM shows strong positive correlation with house price.
 - LSTAT shows strong negative correlation.
 - Ensemble models capture nonlinear patterns effectively.
 
 ---
 
-# 💰 Project 2: Loan Approval Prediction
+#  Project 2: Loan Approval Prediction
 
-## 📖 Problem Statement
+## Problem Statement
 To develop a classification model that predicts whether a loan application will be approved or rejected.
 
 **Problem Type:** Classification  
@@ -81,7 +81,7 @@ To develop a classification model that predicts whether a loan application will 
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 Features include:
 - Gender
@@ -98,39 +98,39 @@ Loan_ID was removed as it does not contribute to prediction.
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
-### 1️⃣ Data Preprocessing
+### 1️ Data Preprocessing
 - Missing value imputation
 - Encoding categorical variables
 - Feature scaling
 - Stratified train-test split (80/20)
 
-### 2️⃣ Models Implemented
+### 2️ Models Implemented
 - Logistic Regression
 - Support Vector Machine (Linear Kernel)
 - Random Forest Classifier
 
 ---
 
-## 📈 Model Accuracy
+##  Model Accuracy
 
 - Logistic Regression: 82.11%
 - Support Vector Machine: 82.11%
 - Random Forest: 81.30%
 
-✅ Final Selected Model: Logistic Regression
+Final Selected Model: Logistic Regression
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 - Credit_History is the strongest predictor of loan approval.
 - Dataset is nearly linearly separable.
 - Complex models did not significantly improve performance.
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -141,7 +141,7 @@ Loan_ID was removed as it does not contribute to prediction.
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```
 project 1.ipynb
@@ -154,7 +154,7 @@ README.md
 
 ---
 
-# 🚀 How to Run
+#  How to Run
 
 1. Clone the repository  
 2. Install required libraries:
@@ -168,7 +168,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-# 📌 Future Improvements
+#  Future Improvements
 - Hyperparameter tuning using GridSearchCV
 - Cross-validation
 - SMOTE for handling class imbalance
@@ -177,7 +177,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-# 👩‍💻 Author
+#  Author
 S. Shivani  
 AI/ML Intern  
 PKIET – February 2026
